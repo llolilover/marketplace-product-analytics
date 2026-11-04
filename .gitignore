@@ -1,0 +1,15 @@
+# Environment and Python cache
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Reproducible generated datasets and database
+data/*.csv
+output/*.csv
+output/*.sqlite
+
+# Local editor settings
+.idea/
+.vscode/
+.DS_Store
